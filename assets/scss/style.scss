@@ -13,6 +13,15 @@ html {
 
     padding: 1em;
     main {
+      .title {
+        margin: 0 auto;
+        margin-bottom: 16px;
+        font-size: 3rem;
+        background-color: rgba(173, 216, 230, 0.536);
+        width: fit-content;
+        padding: 0.5em 1em;
+        border-radius: 20px;
+      }
       padding: 1em;
 
       .output {
@@ -51,8 +60,13 @@ html {
         margin-top: 16px;
 
         h1 {
-          padding-bottom: 16px;
+          margin: 0 auto;
+          margin-bottom: 16px;
           font-size: 3rem;
+          background-color: rgba(173, 216, 230, 0.536);
+          width: fit-content;
+          padding: 0.5em 1em;
+          border-radius: 20px;
         }
         form {
           input {

@@ -16,6 +16,15 @@ html body {
 html body main {
   padding: 1em;
 }
+html body main .title {
+  margin: 0 auto;
+  margin-bottom: 16px;
+  font-size: 3rem;
+  background-color: rgba(173, 216, 230, 0.536);
+  width: fit-content;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
 html body main .output {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -47,8 +56,13 @@ html body main .form__wrapper {
   margin-top: 16px;
 }
 html body main .form__wrapper h1 {
-  padding-bottom: 16px;
+  margin: 0 auto;
+  margin-bottom: 16px;
   font-size: 3rem;
+  background-color: rgba(173, 216, 230, 0.536);
+  width: fit-content;
+  padding: 0.5em 1em;
+  border-radius: 20px;
 }
 html body main .form__wrapper form input {
   display: block;
