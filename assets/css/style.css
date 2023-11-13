@@ -22,7 +22,7 @@ html body main .output {
   gap: 16px;
 }
 html body main .output .card__wrapper {
-  background-color: rgba(173, 216, 230, 0.452);
+  background-color: rgba(173, 216, 230, 0.536);
   padding: 1em;
   border-radius: 20px;
   text-align: center;
@@ -30,9 +30,12 @@ html body main .output .card__wrapper {
 html body main .output .card__wrapper .card__text {
   color: whitesmoke;
   text-align: left;
+  background-color: rgba(0, 0, 0, 0.458);
+  border-radius: 20px;
+  padding: 1em;
 }
 html body main .output .card__wrapper .card__text h4 {
-  padding-block: 16px;
+  padding-bottom: 8px;
 }
 html body main .output .card__wrapper img {
   max-width: 100%;

@@ -21,7 +21,7 @@ html {
         gap: 16px;
 
         .card__wrapper {
-          background-color: rgba(173, 216, 230, 0.452);
+          background-color: rgba(173, 216, 230, 0.536);
           padding: 1em;
           border-radius: 20px;
           text-align: center;
@@ -29,16 +29,12 @@ html {
           .card__text {
             color: whitesmoke;
             text-align: left;
-            h3 {
-              //   padding-block: 8px;
-            }
+            background-color: rgba(0, 0, 0, 0.458);
+            border-radius: 20px;
+            padding: 1em;
 
             h4 {
-              padding-block: 16px;
-            }
-
-            p {
-              // padding: 8px;
+              padding-bottom: 8px;
             }
           }
 
