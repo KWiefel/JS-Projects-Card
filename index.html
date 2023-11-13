@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="output" class="output"></section>
+      <section class="form__wrapper">
+        <h1>Ad a Card</h1>
+        <form onsubmit="return false">
+          <input type="text" placeholder="First Name" id="firstName" />
+          <input type="text" placeholder="Last Name" id="lastName" />
+          <input type="text" placeholder="How many Albums?" id="numberAlbum" />
+          <input type="text" placeholder="How old is this Person?" id="age" />
+          <input type="url" name="" id="inputUrl" placeholder="Image URL" />
+          <button onclick="addCard()">>> Add <<</button>
+        </form>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
